@@ -28,6 +28,24 @@ if event.type == "item" then
       or s == "technic:vacuum"
       or s == "technic:chainsaw_mk1"
       or s == "technic:chainsaw_mk2"
+      or s == "technic:spray_painter_1"
+      or s == "technic:spray_painter_2"
+      or s == "technic:spray_painter_3"
+      or s == "technic:spray_painter_4"
+      or s == "technic:spray_painter_5"
+      or s == "technic:spray_painter_6"
+      or s == "technic:spray_painter_7"
+      or s == "technic:spray_painter_8"
+      or s == "technic:spray_painter_9"
+      or s == "technic:fluorescent:spray_painter_1"
+      or s == "technic:fluorescent:spray_painter_2"
+      or s == "technic:fluorescent:spray_painter_3"
+      or s == "technic:fluorescent:spray_painter_4"
+      or s == "technic:fluorescent:spray_painter_5"
+      or s == "technic:fluorescent:spray_painter_6"
+      or s == "technic:fluorescent:spray_painter_7"
+      or s == "technic:fluorescent:spray_painter_8"
+      or s == "technic:fluorescent:spray_painter_9"
   then
       return "red"
   end
@@ -42,6 +60,7 @@ if event.type == "item" then
       or s == "xtraores:spear_gungir"
       or s == "hangglider:hangglider"
       or s == "cottages:hammar"
+      or s == "mobs:lasso"
   then
       return "black"
    end
