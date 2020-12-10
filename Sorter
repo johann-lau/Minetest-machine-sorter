@@ -48,7 +48,7 @@ if event.type == "item" then
       or s == "technic:fluorescent:spray_painter_8"
       or s == "technic:fluorescent:spray_painter_9"
   then
-      return "red"
+      return "red" --This goes to the battery box.
   end
    if s == "staffs:growstaff"
       or s == "staffs:colorstaff"
@@ -69,6 +69,6 @@ if event.type == "item" then
       or s == "xtraores:sword_geminitinum"
       or s == "xtraores:spear_geminitinum"
   then
-      return "black"
+      return "black" --This goes to the tool workshop.
    end
 end
