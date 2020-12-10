@@ -1,0 +1,39 @@
+if event.type == "item" then
+   local s = event.item.name
+   if s == "technic:walking_tractor_1"
+      or s == "technic:walking_tracor_2"
+      or s == "technic:walking_tracor_3"
+      or s == "technic:walking_tracor_4"
+      or s == "technic:walking_tracor_5"
+      or s == "technic:walking_tracor_6"
+      or s == "technic:planter_1"
+      or s == "technic:planter_2"
+      or s == "technic:planter_3"
+      or s == "technic:planter_4"
+      or s == "technic:planter_5"
+      or s == "technic:planter_6"
+      or s == "technic:sonic_screwdriver"
+      or s == "technic:prospector_mk2"
+      or s == "technic:laser_mk1"
+      or s == "technic:laser_mk2"
+      or s == "technic:laser_mk3"
+      or s == "technic:mining_drill_mk3_1"
+      or s == "technic:mining_drill_mk3_2"
+      or s == "technic:mining_drill_mk3_3"
+      or s == "technic:mining_drill_mk3_4"
+      or s == "technic:mining_drill_mk3_5"
+  then
+      return "red"
+  end
+   if s == "staffs:growstaff"
+      or s == "staffs:colorstaff"
+      or s == "staffs:mysterystaff"
+      or s == "staffs:humiditystaff"
+      or s == "ethereal:light_staff"
+      or s == "ethereal:crystal_gilly_staff"
+      or s == "froststaff:staff"
+     or s == "drawers:trolley"
+  then
+      return "black"
+   end
+end
