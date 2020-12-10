@@ -62,6 +62,12 @@ if event.type == "item" then
       or s == "hangglider:hangglider"
       or s == "cottages:hammar"
       or s == "mobs:lasso"
+      or s == "xtraores:drill_geminitinum"
+      or s == "multitools:multitool_crystal"
+      or s == "multitools:multitool_mithril"
+      or s == "multitools:multitool:lava"
+      or s == "xtraores:sword_geminitinum"
+      or s == "xtraores:spear_geminitinum"
   then
       return "black"
    end
