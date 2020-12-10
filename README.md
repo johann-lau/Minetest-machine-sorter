@@ -5,7 +5,7 @@
 1. Copy the whole code [here](https://raw.githubusercontent.com/johann-lau/Minetest-machine-sorter/main/Sorter).
 2. Join Tunnelers' Abyss Minetest server.
 3. Place a lua controller tube and connect it to the inputchest, the battery box and the tool workshop.
-4. Adjust the colours next to  `return`.
+4. Adjust the colours next to  `return` so that they direct to the right machines.
 5. You are all set! Now you can sort the tools automatically.
 
 ###### Troubleshooting
