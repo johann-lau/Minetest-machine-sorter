@@ -1,14 +1,14 @@
 # Minetest-machine-sorter
-## This file sorts Minetest tools so that they can be sorted to the Tool Workshop or Battery Box.
+###### This file sorts Minetest tools so that they can be sorted to the Tool Workshop or Battery Box.
 
-###### Setup guide
+### Setup guide
 1. Copy the whole code from the [raw file](https://raw.githubusercontent.com/johann-lau/Minetest-machine-sorter/main/Sorter).
 2. Join Tunnelers' Abyss Minetest server.
 3. Place a lua controller tube and connect it to the inputchest, the battery box and the tool workshop.
 4. Adjust the colours next to  `return` so that they direct to the right machines.
 5. You are all set! Now you can sort the tools automatically.
 
-###### Troubleshooting
+### Troubleshooting
 Problem|Reason|Solution
 ------|------|------
 The tools don't go in the machines.|The machines doesn't have the required upgrade.|Put an advanced logic control unit in the upgrade slots of the machine.
