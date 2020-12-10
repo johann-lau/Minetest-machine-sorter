@@ -22,6 +22,12 @@ if event.type == "item" then
       or s == "technic:mining_drill_mk3_3"
       or s == "technic:mining_drill_mk3_4"
       or s == "technic:mining_drill_mk3_5"
+      or s == "powerbanks:powerbank_mk1"
+      or s == "powerbanks:powerbank_mk2"
+      or s == "powerbanks:powerbank_mk3"
+      or s == "technic:vacuum"
+      or s == "technic:chainsaw_mk1"
+      or s == "technic:chainsaw_mk2"
   then
       return "red"
   end
@@ -32,7 +38,10 @@ if event.type == "item" then
       or s == "ethereal:light_staff"
       or s == "ethereal:crystal_gilly_staff"
       or s == "froststaff:staff"
-     or s == "drawers:trolley"
+      or s == "drawers:trolley"
+      or s == "xtraores:spear_gungir"
+      or s == "hangglider:hangglider"
+      or s == "cottages:hammar"
   then
       return "black"
    end
